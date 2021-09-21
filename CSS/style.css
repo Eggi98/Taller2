@@ -1,0 +1,20 @@
+body{
+    background-image: url(../Images/flag.jpg);
+}
+
+.cap h1{
+    margin-top: 100px;
+    text-align: center;
+    align-content: flex-end
+}
+
+.cap h3{
+    text-align: center;
+    align-content: flex-end
+}
+
+.boton{
+    position: absolute;
+    right: 50%;
+    top: 50%
+}
