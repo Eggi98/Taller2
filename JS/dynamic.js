@@ -1,11 +1,11 @@
 alert("Hola, Bienvenido");
-let nombre = prompt("Ingresa tu nombre").lowercase;
+let nombre = prompt("Ingresa tu nombre");
 alert(nombre + ", " + "aprendamos un poco de Geografia Colombiana");
 
 const departamentos = () => {
   let departamentos = prompt(
     "Por favor ingresa un Departamento y te diré su Capital"
-  );
+  ).lowercase;
 
   switch (departamentos) {
     case "bogota":
